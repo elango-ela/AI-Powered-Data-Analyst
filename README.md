@@ -134,5 +134,46 @@ This report provides a detailed overview of the approach taken in developing the
 
 
 
+[Start]
+   |
+[Data Processing]
+   |
+   +-> [Data Ingestion] -> [Read File] -> [Data Loaded]
+   |
+   +-> [Data Cleaning] -> [Remove Missing Values] -> [Drop Unnecessary Columns] -> [Data Ready for Analysis]
+   |
+[Analysis Engine]
+   |
+   +-> [Target Variable Identification] -> [Identify Target Variable] -> [Use LLM Model and Vector Database]
+   |
+   +-> [Data Preprocessing] -> [Encode Categorical Variables]
+   |
+   +-> [Correlation Calculation] -> [Compute Correlations]
+   |
+   +-> [Clustering] -> [Apply K-Means Clustering] -> [Generate Clustering Plot]
+   |
+   +-> [Visualization] -> [Plot Correlation Heatmap] -> [Plot Scatter Plot]
+   |
+[Report Generation]
+   |
+   +-> [HTML Report] -> [Generate HTML Report]
+   |
+   +-> [PDF Report] -> [Convert HTML to PDF] -> [Generate PDF Report]
+   |
+   +-> [Manage Temporary Files] -> [Remove Temporary Image Files] -> [Final PDF Report Ready]
+   |
+[User Interaction]
+   |
+   +-> [CLI] -> [Prompt User for Questions]
+   |
+   +-> [Natural Language Processing] -> [Use LLM Model and Vector Database to Interpret Questions] -> [Answer Questions]
+   |
+   +-> [Display Response] -> [Print Answer]
+   |
+[End]
+
+
+
+
 
 
